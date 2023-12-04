@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --btn1-color:rgb(26, 195, 28);
+    --btn2-color:coral;
+    --btn3-color:red;
+}
+body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: url("train-station-3169964_1280.jpg") no-repeat ;
+       background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.container h1 , h2{
+    color: white;
+}
+.container h2{
+    font-size: 4rem;
+    margin-top: 10px;;
+}
+
+.container p{
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.btn{
+    height: 70px;
+    width: 300px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn-1{
+  margin-top: 3rem;
+  border-radius: 10px;
+  background-color: var(--btn1-color);
+}
+.btn-2{
+    border-radius: 10px;
+    background-color: var(--btn2-color);
+}
+
+.btn-3{
+    margin-top: 3rem;
+    border-radius: 10px;
+    background-color: var(--btn3-color);
+}
+@media  screen and (max-width:500px) {
+    body{
+        background: url("https://images.pexels.com/photos/2422254/pexels-photo-2422254.jpeg?cs=srgb&dl=pexels-josh-hild-2422254.jpg&fm=jpg") no-repeat center center/cover;
+        
+        overflow: hidden;
+        
+    }
+    .container p{
+        font-size: 25px;
+         margin:5rem 1rem 5rem 1rem ;
+    }
+}
+
+@media screen and (max-width:768px) {
+   
+}
